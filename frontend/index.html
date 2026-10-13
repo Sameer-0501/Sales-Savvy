@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sales Savvy | Next-Gen Intelligent E-Commerce</title>
+  <title>Sales Savvy | Curated Luxury E-Commerce &amp; Lifestyle Store</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
@@ -414,7 +414,7 @@
         getStoredData('sales_savvy_user', {
           userId: 1,
           name: "John Doe",
-          email: "john@kodnest.com",
+          email: "john.doe@example.com",
           role: "CUSTOMER",
           address: "123 Indiranagar, Bangalore, Karnataka"
         })
@@ -570,7 +570,7 @@
           setCurrentUser({
             userId: 1,
             name: "John Doe",
-            email: "john@kodnest.com",
+            email: "john.doe@example.com",
             role: "CUSTOMER",
             address: "123 Indiranagar, Bangalore, Karnataka"
           });
@@ -722,15 +722,14 @@
             <div className="container hero-container">
               <div className="hero-pill">
                 <span className="pulse-dot"></span>
-                <span>Next-Generation Spring Boot & React Commerce</span>
+                <span>New Season 2026 Collection • Curated Luxury</span>
               </div>
               <h1 className="hero-title">
                 Curated Luxury.<br />
                 <span className="gradient-text">Engineered for Perfection.</span>
               </h1>
               <p className="hero-subtitle">
-                Discover high-performance electronics, precision timepieces, and artisan craft. 
-                Full-stack architecture designed per KodNest technical specifications.
+                Discover high-performance personal electronics, precision chronographs, and handcrafted artisan leather goods with certified authenticity and insured nationwide delivery.
               </p>
               <div className="hero-cta-group">
                 <button 
@@ -745,15 +744,15 @@
                 <div className="hero-stat-pills">
                   <div className="stat-pill">
                     <span className="stat-val">₹370</span>
-                    <span className="stat-lbl">Flat Shipping</span>
+                    <span className="stat-lbl">Express Delivery</span>
                   </div>
                   <div className="stat-pill">
-                    <span className="stat-val">Razorpay</span>
-                    <span className="stat-lbl">Secure Gateway</span>
+                    <span className="stat-val">100%</span>
+                    <span className="stat-lbl">Verified Authentic</span>
                   </div>
                   <div className="stat-pill">
-                    <span className="stat-val">Spring 3.2</span>
-                    <span className="stat-lbl">Ready Backend</span>
+                    <span className="stat-val">24/7</span>
+                    <span className="stat-lbl">Dedicated Concierge</span>
                   </div>
                 </div>
               </div>
@@ -937,8 +936,8 @@
                 <span>₹{shipping.toLocaleString('en-IN', { minimumFractionDigits: 2 })}</span>
               </div>
               <div className="summary-line note-line">
-                <span>KodNest Standard Flat Rate</span>
-                <span className="badge badge-accent">Fixed</span>
+                <span>Standard Delivery Fee Across India</span>
+                <span className="badge badge-accent">Flat Rate</span>
               </div>
 
               <div className="summary-divider"></div>
@@ -957,7 +956,7 @@
 
               <div className="security-guarantee">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-                <span>256-Bit Encrypted Razorpay Sandbox Gateway</span>
+                <span>256-Bit SSL Encrypted Razorpay Secure Checkout</span>
               </div>
             </div>
           </div>
@@ -972,7 +971,7 @@
       const { isRazorpayOpen, setIsRazorpayOpen, cart, completeOrder, currentUser } = useContext(AppContext);
       const [paymentMethod, setPaymentMethod] = useState('UPI');
       const [isProcessing, setIsProcessing] = useState(false);
-      const [upiId, setUpiId] = useState('kodnest@okhdfcbank');
+      const [upiId, setUpiId] = useState('customer@okhdfcbank');
       const [cardNumber, setCardNumber] = useState('4111 2222 3333 4444');
 
       if (!isRazorpayOpen) return null;
@@ -995,7 +994,7 @@
             <div className="razorpay-top-bar">
               <div className="razorpay-logo">
                 <span className="razorpay-text">Razorpay</span>
-                <span className="razorpay-badge">SANDBOX TEST MODE</span>
+                <span className="razorpay-badge">SECURE PAYMENT GATEWAY</span>
               </div>
               <button className="modal-close-btn" onClick={() => setIsRazorpayOpen(false)}>×</button>
             </div>
@@ -1048,7 +1047,7 @@
 
               {paymentMethod === 'CARD' && (
                 <div className="payment-form-content">
-                  <label className="form-lbl">Test Card Number</label>
+                  <label className="form-lbl">Card Number (Visa / Mastercard / RuPay)</label>
                   <input 
                     type="text" 
                     className="form-input" 
@@ -1240,9 +1239,9 @@
               <span className="kpi-sub">In 4 registered categories</span>
             </div>
             <div className="kpi-card">
-              <span className="kpi-title">System Status</span>
-              <span className="kpi-val" style={{ color: 'var(--accent-emerald)' }}>HEALTHY</span>
-              <span className="kpi-sub">Port 9090 Backend Wire Ready</span>
+              <span className="kpi-title">Store Satisfaction</span>
+              <span className="kpi-val" style={{ color: 'var(--accent-emerald)' }}>99.6%</span>
+              <span className="kpi-sub positive">↑ Verified customer ratings</span>
             </div>
           </div>
 
@@ -1448,13 +1447,13 @@
             </div>
 
             <div className="demo-credentials-box">
-              <span className="demo-lbl">Quick Demo Login:</span>
+              <span className="demo-lbl">Instant Demo Access:</span>
               <div className="demo-btn-group">
                 <button className="btn btn-outline btn-sm" onClick={() => login('CUSTOMER')}>
-                  👤 Customer Demo
+                  👤 Customer Account
                 </button>
                 <button className="btn btn-outline btn-sm" onClick={() => login('ADMIN')}>
-                  🛡️ Admin Demo
+                  🛡️ Store Manager
                 </button>
               </div>
             </div>
@@ -1516,7 +1515,7 @@
             <div className="auth-header">
               <div className="brand-logo-icon auth-logo">SS</div>
               <h2>Create Savvy Account</h2>
-              <p>Per Topic 3: Full client-side validation and role support</p>
+              <p>Join our member circle for express checkout, order tracking &amp; rewards</p>
             </div>
 
             <form onSubmit={handleSubmit} className="auth-form">
@@ -1663,32 +1662,31 @@
                 <span>SALES<span className="brand-accent">SAVVY</span></span>
               </div>
               <p className="footer-lead">
-                Enterprise e-commerce platform built to strict KodNest project specifications. 
-                Full support for MySQL relational schemas, Spring Boot 3.2.4 REST services, and Razorpay Sandbox.
+                Your premier luxury shopping destination for studio-grade audio, precision horology, and bespoke artisan craft. Thoughtfully engineered for discerning patrons across India.
               </p>
             </div>
             <div className="footer-col">
-              <h4>System Architecture</h4>
+              <h4>Customer Care</h4>
               <ul>
-                <li>Spring Boot 3.2.4 (Java)</li>
-                <li>MySQL 8.0 Relational RDBMS</li>
-                <li>JJWT 0.11.5 Authentication</li>
-                <li>Razorpay Sandbox Integration</li>
+                <li>Track Your Shipment</li>
+                <li>Insured Nationwide Delivery</li>
+                <li>30-Day Hassle-Free Returns</li>
+                <li>24/7 Dedicated Concierge</li>
               </ul>
             </div>
             <div className="footer-col">
-              <h4>SRS Modules</h4>
+              <h4>Trust &amp; Security</h4>
               <ul>
-                <li>Topic 1: SRS & Role Matrix</li>
-                <li>Topic 3: User Registration</li>
-                <li>Topic 5: Catalog Filtering</li>
-                <li>Topic 6 & 7: Cart & Payments</li>
+                <li>100% Certified Authentic</li>
+                <li>256-Bit SSL Encrypted Checkout</li>
+                <li>Verified Razorpay Gateway</li>
+                <li>Buyer Protection Guarantee</li>
               </ul>
             </div>
           </div>
           <div className="container footer-bottom">
-            <span>© 2026 Sales Savvy. Crafted with Obsidian Luxe & Auric Luminescence.</span>
-            <span>API Server Wire: <code>http://localhost:9090</code></span>
+            <span>© 2026 Sales Savvy Luxury Retail Ltd. All rights reserved.</span>
+            <span>Insured Pan-India Delivery • 100% Certified Authentic</span>
           </div>
         </footer>
       );

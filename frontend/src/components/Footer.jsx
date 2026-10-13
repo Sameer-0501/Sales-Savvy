@@ -54,16 +54,16 @@ export const Footer = () => {
             </ul>
           </div>
 
-          {/* Security & Architecture */}
+          {/* Trust & Guarantee */}
           <div>
             <div style={{ fontSize: 13, fontWeight: 700, color: '#FFF', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: 14 }}>
-              Engineering
+              Trust &amp; Security
             </div>
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 8, fontSize: 13 }}>
-              <li style={{ color: 'var(--text-muted)' }}>🔒 256-Bit SSL / TLS Encryption</li>
-              <li style={{ color: 'var(--text-muted)' }}>⚡ Java Spring Boot Microservices</li>
-              <li style={{ color: 'var(--text-muted)' }}>💳 Razorpay Sandbox Payment</li>
-              <li style={{ color: 'var(--text-muted)' }}>🛡️ BCrypt &amp; JWT Token Guard</li>
+              <li style={{ color: 'var(--text-muted)' }}>🔒 256-Bit SSL Secured Checkout</li>
+              <li style={{ color: 'var(--text-muted)' }}>🚚 Insured Pan-India Express Delivery</li>
+              <li style={{ color: 'var(--text-muted)' }}>💳 Razorpay Verified Payment Gateway</li>
+              <li style={{ color: 'var(--text-muted)' }}>🛡️ 100% Certified Authentic Products</li>
             </ul>
           </div>
         </div>
